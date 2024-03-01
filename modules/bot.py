@@ -34,7 +34,7 @@ piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/Disney_storeDan"),
     ]
 ]
 
@@ -52,15 +52,15 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ Dan - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Dan-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -71,12 +71,12 @@ in_alive = """
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Bro Dan** 😁",
+    "**Maaf ka habis nemenin ka Dan** 🥺",
+    "**Maaf ka habis disuruh Tuan Dan** 🥺🙏🏻",
+    "**Hadir Dan Sayang** 😘",
+    "**Hadir Dan Akuuuuhhh** ☺️",
+    "**Hadir Dan brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -89,12 +89,12 @@ async def kynanabsen(ganteng):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**Dan Punya Nya KK itu**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Dan Punya Nya Kk itu**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
@@ -143,7 +143,7 @@ async def lol(
             private_chats,
             groups,
             ping,
-            f"{ayra_version} [{HOSTED_ON}]",
+            f"{dan_version} [{HOSTED_ON}]",
             AyraVer,
             uptime,
         )
@@ -154,7 +154,7 @@ async def lol(
         parse = "md"
         als = (get_string("alive_1")).format(
             header,
-            f"{ayra_version} [{HOSTED_ON}]",
+            f"{dan_version} [{HOSTED_ON}]",
             AyraVer,
             uptime,
             pyver(),
@@ -278,13 +278,13 @@ async def _(event):
         with open(file, "r") as f:
             code = f.read()[-2500:]
         file = await Carbon(
-            file_name="naya-logs",
+            file_name="Dan-logs",
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
-        await event.reply("**Naya Logs.**", file=file)
+        await event.reply("**Dan Logs.**", file=file)
     elif opt == "open":
-        with open("ayra.log", "r") as f:
+        with open("Dan.log", "r") as f:
             file = f.read()[-4000:]
         return await event.eor(f"`{file}`")
     else:
@@ -312,7 +312,7 @@ async def inline_alive(
         remaining_days,
         ayra_bot.dc_id,
         ping,
-        f"{ayra_version} [{HOSTED_ON}]",
+        f"{dan_version} [{HOSTED_ON}]",
         AyraVer,
         uptime,
     )
@@ -338,7 +338,7 @@ async def inline_alive(
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="↻ꝛɪᴢ",
+                        description="↻ᴅᴀɴ",
                         parse_mode="html",
                         buttons=buttons,
                     )
@@ -384,7 +384,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/naya1503/Naya-Userbot/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/bebekk2024/Naya-Userbot/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
