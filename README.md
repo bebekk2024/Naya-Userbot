@@ -2,18 +2,18 @@
   <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
 </p>
 <h1 align="center">
-  <b>иᴀʏᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
+  <b>ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
 
 
-[![Last Commit](https://img.shields.io/github/last-commit/naya1503/Naya-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge)](https://github.com/naya1503/Naya-Userbot/commits)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/naya1503/Naya-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/naya1503/Naya-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/naya1503/Naya-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/bebekk2024/Naya-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge)](https://github.com/bebekk2024/Naya-Userbot/commits)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/bebekk2024/Naya-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/bebekk2024/Naya-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/bebekk2024/Naya-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/bebekk2024/Naya-Userbot?&logo=github)](https://github.com/bebekk2024/Naya-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/bebekk2024/Naya-Userbot?&logo=github)](https://github.com/bebekk2024/Naya-Userbot/stargazers)
 ----
 
 ## Disclaimer
@@ -39,7 +39,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 • `sudo apt-get install python3-pip ffmpeg -y`
 
- • `git clone https://github.com/naya1503/Naya-Userbot`
+ • `git clone https://github.com/bebekk2024/Naya-Userbot`
 
  • `cd Naya-Userbot`
 
@@ -63,7 +63,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 • `curl -sSL https://get.docker.com | sh`
 
- • `git clone https://github.com/naya1503/Naya-Userbot`
+ • `git clone https://github.com/bebekk2024/Naya-Userbot`
 
  • `cd Naya-Userbot`
 
@@ -87,7 +87,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 • Silakan isi vars yang diperlukan API_ID, API_HASH, SESSION, HEROKU_API dan HEROKU_APP_NAME
 
 <h3 align="center">Click The Button</h3>
-<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/naya1503/Naya-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/bebekk2024/Naya-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 </details>
@@ -113,13 +113,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 * [MarshalX](https://github.com/MarshalX) for [PyTgCalls](https://github.com/MarshalX/tgcalls)
 * [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 * [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
-* [Kynan](https://github.com/naya1503) for [Naya-Userbot](https://github.com/naya1503/Naya-Userbot)
+* [Dan](https://github.com/bebekk2024) for [Dan-Userbot](https://github.com/bebekk2024/Naya-Userbot)
 
 ## Made By
 * [![TeamUltroid-Devs](https://img.shields.io/static/v1?label=Teamultroid&message=devs&color=critical)](https://t.me/UltroidDevs)
 
 ## Remake By
-* [![Kynan.](https://img.shields.io/static/v1?label=Ky&message=nan&color=critical)](https://t.me/kenapanan)
+* [![Dan.](https://img.shields.io/static/v1?label=Ky&message=nan&color=critical)](https://t.me/mhmdwldnnnn)
 
 
 
